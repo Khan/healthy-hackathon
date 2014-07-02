@@ -1,0 +1,20 @@
+# Before adding an entry here that affects everyone, consider if it's perhaps
+# more appropriate to add it to only your own personal hgignore file for the
+# repo. See the following link to learn how to do this:
+# http://mercurial.selenic.com/wiki/TipsAndTricks#Ignore_files_in_local_working_copy_only
+
+syntax: glob
+
+### VC directories (needed since this file is both .hgignore and .gitignore)
+.git
+.hg
+
+### OS/Editor-created files
+*.DS_Store
+.*.swp
+.*.un~
+.tags
+.tags_sorted_by_file
+.tm_properties
+*.rej
+.idea
