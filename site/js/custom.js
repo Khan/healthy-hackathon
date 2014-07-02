@@ -290,7 +290,6 @@ function signupOverlay() {
 /* --- Modal overlay (used for login form) ------------------- */
 
 function loginOverlay() {
-    return;
   var container = document.querySelector( 'div.container' ),
     triggerBttn = document.querySelector( '.login' ),
     overlay = document.querySelector( 'div#login' ),
