@@ -2695,6 +2695,9 @@ footer.footer .icon {
     font-size: 1.1em;
     font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+#faq .examples-list {
+    margin-top: -20px;
+}
 
 .prize-description,
 .but-seriously,
