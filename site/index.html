@@ -32,6 +32,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
+    <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
   </head>
 
@@ -97,6 +98,16 @@
         </div>
     </div>
 
+    <script>
+      // Set Initial Screen Dimensions
+      var screenWidth = $(window).width() + "px";
+      var screenHeight = $(window).height() + "px";
+
+      $("#intro, #intro .item, #intro-video").css({
+        width: screenWidth,
+        height: screenHeight
+      });
+    </script>
 
 
     <!-- Wtf Section
@@ -530,7 +541,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/classie.js"></script>
 		<script src="js/cbpAnimatedHeader.min.js"></script>

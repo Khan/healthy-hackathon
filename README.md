@@ -25,6 +25,9 @@ max_age:
 
 gzip:
   - .html
+  - .jpg
+  - .png
+  - .js
   - .css
   - .md
 ```
