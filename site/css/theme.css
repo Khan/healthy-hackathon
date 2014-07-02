@@ -1520,7 +1520,7 @@ section.dark {
   background: #2b2d35;
 }
 section.dark.with-bg {
-  background: black url('http://tomlinscoteschool.com/6thblog/wp-content/uploads/2013/07/khan-academy-economics2.png') 600px center no-repeat;
+  background: black url('../img/ka-screen.png') 600px center no-repeat;
   background-size: cover;
 }
 section.dark h1,
