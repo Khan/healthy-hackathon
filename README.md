@@ -9,9 +9,11 @@ healthyhackathon.khanacademy.org is hosted on S3 (bucket:
 healthyhackathon.khanacademy.org), setup as a static website
 using https://github.com/laurilehmijoki/s3_website
 
-If you want to deploy an update, install the s3_website tool from that repo and
-use it to push to the above bucket. Note that you're gonna need to create
-a config file that looks something like this:
+If you want to deploy an update:
+
+1) Install the s3_website tool from that repo and use it to push to the above
+bucket. Note that you're gonna need to create a config file in site/ that looks
+something like this:
 
 ```
 s3_id: {AWS Access Key Id w/ S3 access}
@@ -31,3 +33,5 @@ gzip:
   - .css
   - .md
 ```
+
+2) From the site/ directory, run ```s3_website push --site=.```
