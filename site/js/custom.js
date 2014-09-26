@@ -358,7 +358,7 @@ function onePageScroll() {
   });
 
   $(".start-hacking").click(function(e) {
-      $("#wtf-link").click();
+      $(".big-button-target").click();
       e.preventDefault();
   });
 }
