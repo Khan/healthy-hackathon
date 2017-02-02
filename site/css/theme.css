@@ -1631,6 +1631,7 @@ section .overlay-text {
   border-radius: 7px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 #schedule .plan .plan-title {
   margin: 0;
@@ -2716,5 +2717,5 @@ footer div.container p {
     text-align: center;
 }
 .but-seriously {
-    margin-top: 20px;
+    margin: 20px 0 0 0;
 }
